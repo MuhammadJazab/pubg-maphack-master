@@ -1,0 +1,55 @@
+* { outline: none; }
+html { 
+	padding: 25px; 
+	box-sizing: border-box; 
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 13px;
+}
+.author { 
+	width: 100%; 
+	max-width: 800px; 
+	text-align: right; 
+	font-size: 10px;
+	height: 0px;
+}
+a,
+a:active,
+a:visited,
+a:hover { color: blue; cursor: pointer; text-decoration: underline; }
+textarea { 
+	font-size: 10px; 
+	width: 100%; 
+	height: 72px; 
+	border: 0px; 
+	resize: none; 
+	overflow: hidden; 
+	white-space: nowrap;
+	font-weight: bold;
+	font-family: 'Ubuntu Mono', monospace;
+}
+h1 { opacity: 0; height: 0px; }
+h2 { text-transform: uppercase; }
+.section { margin-bottom: 30px; }
+.section:last-child() { margin-bottom: 0px; }
+.info { padding: 0px 15px; max-width: 500px; }
+.status {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 11px;
+}
+.tab {
+	display: inline-block;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 10px;
+	height: 10px;
+	position: relative;
+	top: -2px;
+}
+.trouble li { margin-bottom: 10px; }
+.trouble li:last-child() { margin-bottom: 0px; }
+.status span { text-transform: uppercase; color: green; }
+.red { color: red; font-size: 11px; }
+.warn { margin-bottom: 10px; }
+.inline { display: inline-block; height: 0px; }
+.warn .tab { top: -15px; position: relative; }
